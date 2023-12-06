@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            border: 1px solid black;
+        }
+        .container {
+            display: flex;
+            height: 500px;
+            width: 100%;
+            gap: 5px;
+        }
+        .container > div {
+            height: 100%;
+            flex-grow: 1;
+        }
+        .container > div:nth-child(2) {
+            flex: 3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</body>
+</html>
