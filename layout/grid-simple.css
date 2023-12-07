@@ -1,0 +1,21 @@
+body > *,
+.container > * {
+    border: 2px solid black;
+    margin: 5px;
+}
+
+header {
+    height: 150px;
+    background-color: aqua;
+}
+
+footer {
+    height: 150px;
+    background-color: blueviolet;
+}
+
+.container {
+    height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}

@@ -1,0 +1,29 @@
+body > *,
+.container > * {
+    border: 2px solid black;
+    margin: 5px;
+}
+
+header {
+    height: 150px;
+    background-color: aqua;
+}
+
+footer {
+    height: 150px;
+    background-color: blueviolet;
+}
+
+.container {
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+main {
+    width: 65%;
+}
+
+.sidebar {
+    width: 15%;
+}

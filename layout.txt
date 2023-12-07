@@ -1,0 +1,7 @@
+Layout
+
+3 ways
+
+- floats
+- flexbox
+- css grid

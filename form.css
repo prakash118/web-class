@@ -1,0 +1,42 @@
+.title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.form {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.formSection {
+    margin-bottom: 20px;
+}
+
+.formSection label {
+    display: inline-block;
+    width: 45%;
+}
+
+.gap {
+    display: inline-block;
+    width: 9%;
+}
+
+.inputField {
+    border: none;
+    border-bottom: 1px solid black;
+    display: block;
+    width: 100%;
+}
+
+.submit {
+    padding: 5px 40px;
+    margin: 10px;
+    background-color: #bb5a3a;
+    border: none;
+    color: #ffffff;
+}
+
+.center {
+    text-align: center;
+}

@@ -1,19 +1,19 @@
-Layout
+# 3 ways to build a website layouts
 
-3 ways to build a website layouts
 
 Here we // design
 
-Float - not recommended for layout anymore
-Float allows the element to be placed left or right within the container.
+![main layout design]("../assets/layout-design.png")
 
-In a container eg div, children can use a CSS property float.
+## Float
+*Note: not recommended for layout anymore*
+
+Float allows the element to be placed left or right within the container. In a container eg div, children can use a CSS property float.
 Float can be left or right amongst others values.
 
 // Code
 
-Here, inside the container 1st 2 children has float left property and the last child `sidebar` has float right.
-After the last child, float needs to be cleared using `clear: both` CSS property, else other elements (inline especially) can appear left of the last `sidebar` if any.
+Here, inside the container 1st and 2nd children has float left property and the last child `sidebar` has float right. After the last child, float needs to be cleared using `clear: both` CSS property, else other elements (inline especially) can appear left of the last `sidebar` if any.
 
 For more cleaner approach to clear float is to apply clear both to the container after. ie
 
@@ -23,11 +23,11 @@ For more cleaner approach to clear float is to apply clear both to the container
     diaplay: block;
 }
 
-for more information:
+For more information:
 https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Floats
 
 
-Flexbox
+## Flexbox
 
 Flexbox is a layout method to arange items (children) in rows or columns. 
 All the element has display property, and one of the value is flex, so setting the display flex property of container will place all 3 children in a row, next to each other.
@@ -42,7 +42,7 @@ For more information:
 https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox
 
 
-Grid
+## Grid
 
 Grid is also a layout method to arrange items in rows and columns for a complex layout. It is also two-dimensional layout system.
 

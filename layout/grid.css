@@ -1,0 +1,56 @@
+body > *,
+.container > * {
+    border: 2px solid black;
+    margin: 5px;
+}
+
+header {
+    height: 150px;
+    background-color: aqua;
+}
+
+footer {
+    height: 150px;
+    background-color: blueviolet;
+}
+
+.container {
+    height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+main {
+    display: grid;
+    grid-template-areas:
+    "a a b c"
+    "d e e c"
+    ;
+    gap: 5px;
+}
+
+main>* {
+    border: 1px solid black;
+}
+
+.one {
+    grid-area: a;
+}
+
+.two {
+    grid-area: b;
+
+}
+
+.three {
+    grid-area: c;
+
+}
+
+.four {
+    grid-area: d;
+}
+
+.five {
+    grid-area: e;
+}
