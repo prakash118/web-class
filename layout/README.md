@@ -39,7 +39,9 @@ Here, 1st and last children has `flex-grow: 1;` or in short `flex: 1;` property.
 Width can be used in the children but not recommended, however flex-grow is the a good practice.
 
 For more information:
-https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox
+- https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox
+- https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+- https://flexboxfroggy.com/
 
 
 ## Grid
@@ -67,7 +69,7 @@ grid-template-areas defines the template by using a, b, c, d, e as areas; can be
 
 
 For more information:
-https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Grids
-
-
+- https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Grids
+- https://css-tricks.com/snippets/css/complete-guide-grid/
+- https://cssgridgarden.com/
 
