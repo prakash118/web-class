@@ -3,7 +3,7 @@
 
 Here we // design
 
-![main layout design]("../assets/layout-design.png")
+![main layout design]("https://github.com/prakash118/web-class/blob/main/assets/layoutDesign.png")
 
 ## Float
 *Note: not recommended for layout anymore*
@@ -55,9 +55,11 @@ Similar to flexbox, here the container is display as grid, then `grid-template-c
 
 Since grid can be used to build complex layout. lets build the layout below
 
-// layout
+![complex layout design]("https://github.com/prakash118/web-class/blob/main/assets/complexLayoutDesign.png")
 
 Looking at the layout there are 4 columns and 2 rows. lets use grid area to build this layout.
+
+![complex layout columns]("https://github.com/prakash118/web-class/blob/main/assets/complexLayoutColumns.png")
 
 // code
 
